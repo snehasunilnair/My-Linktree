@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/bg.jpg);
+    font-family: 'Crimson Text', serif;
+    font-weight: 600;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#photo {
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%;
+    }
+
+#name {
+    color: #fff;
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#name h1 {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 3.2px;
+    margin: 0 auto;
+    }
+    
+#name p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 5px;
+    text-transform: none;
+    opacity: 0.9;
+}
+
+i.fa{
+        margin-right: 4.8px;
+    }
+
+#links {
+        max-width: 500px;
+        width: auto;
+        display: block;
+        margin: 20px auto;
+    }
+ .link {
+        display: block;
+        background-color: #e55d29;
+        color: #fff;
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 17px;
+        text-decoration: none;
+        font-size: 19.2px;
+        font-weight: 300;
+        border-radius: 10px;
+ }
+
+ .link:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #000000;
+    border: none;
+    transition: background-color 0.5s, border 0.5s, color 0.5s;
+    }
+    
